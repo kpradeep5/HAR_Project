@@ -1,0 +1,9 @@
+pip install opencv-python
+pip install imutils
+
+
+open vscode with the same directory or get using cd command to the directory
+create new terminal and paste: 
+
+
+python HAR.py --model resnet-34_kinetics.onnx --classes Actions.txt
